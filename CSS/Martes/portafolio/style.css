@@ -1,0 +1,7 @@
+a:hover {
+  color: green;
+}
+p::first-letter {
+  font-size: 30px;
+  color: red;
+}

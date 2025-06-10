@@ -1,0 +1,61 @@
+body{
+    font-family: 'Courier New';
+    background-color: white;
+    padding: 20px;
+}
+
+.articulo{
+    border: 1px solid #c2c2c2;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    width: 80rem;
+    text-align: left;
+    cursor: pointer;
+    transform: background 0.5 ease;
+    outline: none;
+    transition: transform 0.2s ease;
+}
+
+.articulo:nth-child(1){
+    background-color: rgb(220, 255, 207);
+}
+
+.articulo:nth-child(2){
+    background-color: #ececec;
+    border-left: 4px solid rgb(3, 158, 158);
+}
+
+.articulo:nth-child(3){
+    background-color: rgb(252, 255, 166);
+}
+
+.card1:hover{
+    background-color: rgb(174, 255, 144);
+    border-left: 1rem solid rgb(100, 201, 63);
+    transition: 0.34s ease;
+}
+
+.card2:hover{
+    background-color: #c2c2c2;
+    border-left: 1rem solid rgb(3, 158, 158);
+    transition: 0.34s ease;
+}
+
+.card3:hover{
+    background-color: rgb(252, 255, 166);
+    border-left: 1rem solid rgb(190, 194, 87);
+    transition: 0.34s ease;
+}
+
+.articulo:hover{
+    transform: translateY(-10px);
+}
+
+.articulo:active{
+    background-color: rgb(103, 166, 255);
+    transform: scale(0.9);
+    color: black;
+    transform: translateY(2px);
+}
